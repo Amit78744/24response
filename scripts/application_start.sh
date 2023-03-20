@@ -8,7 +8,7 @@ sudo chmod -R 777 /home/ec2-user/24response-backend
 cd /home/ec2-user/24response-backend
 
 #install node modules
-sudo docker pull amitambaliya/24response-backend-app:latest
+sudo docker pull amitambaliya/24response-backend:latest
 sudo docker-compose up -d 
 
 #start our node app in the background
