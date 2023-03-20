@@ -114,3 +114,4 @@ uploads/
 views/
 www/
 app.js
+.dockerignore
