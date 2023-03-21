@@ -7,7 +7,7 @@ sudo chmod -R 777 /home/ec2-user/24response-backend
 #navigate into our working directory where we have all our github files
 cd /home/ec2-user/24response-backend
 
-#install node modules
+#Pull docker images and start
 sudo docker pull amitambaliya/24response-backend:latest
 sudo docker-compose up -d 
 
